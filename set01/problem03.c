@@ -5,11 +5,11 @@ int add(int a, int b);
 void output(int a, int b, int sum);
 int main()
 {
-    int num1, num2, result;
-    num1 = input();
-    num2 = input();
-    result = add(num1, num2);
-    output(num1, num2, result);
+    int a, b, result;
+    a = input();
+    b = input();
+    result = add(a, b);
+    output(a, b, result);
     return 0;
 }
 
