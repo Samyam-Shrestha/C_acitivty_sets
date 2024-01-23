@@ -1,0 +1,18 @@
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\C programs (2nd sem)\C_acitivty_sets\set01\a.exe...done.
+(gdb) r
+Starting program: C:\C programs (2nd sem)\C_acitivty_sets\set01/a.exe
+[New Thread 11964.0x4050]
+[New Thread 11964.0x36dc]
+Enter the number: 2
+Enter the number: 2
+the sum of 2 and 2 number is: 4[Inferior 1 (process 11964) exited normally]
+(gdb)
