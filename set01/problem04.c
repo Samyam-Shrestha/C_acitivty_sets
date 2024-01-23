@@ -5,18 +5,17 @@ void add(int a, int b, int *sum);
 void output(int a, int b, int sum);
 int main()
 {
-    int num1, num2, result;
-    
-    add(num1, num2, &result);
-    output(num1, num2, result);
-
+    int a, b, result;
+    input(&a, &b);
+    add(a, b, &result);
+    output(a, b, result);
 }
 void input(int *a, int *b)
 {
-    int x;
-    printf("Enter the number: ");
-    scanf("%d", &x);
-    return x;
+    printf("Enter the first number: ");
+    scanf("%d", a);
+    printf("Enter the second number: ");
+    scanf("%d", b);
 }
 void add(int a, int b, int *sum)
 {
