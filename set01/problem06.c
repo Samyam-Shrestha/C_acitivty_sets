@@ -1,6 +1,6 @@
 // Write a C program to compare three numbers using **pass by reference**
 #include <stdio.h>
-int input(int *a, int *b, int *c);
+void input(int *a, int *b, int *c);
 void compare(int a, int b, int c, int *largest);
 void output(int a, int b, int c, int largest);
 int main() 
@@ -10,7 +10,7 @@ int main()
     compare(a, b, c, &largest);
     output(a, b, c, largest);
 }
-int input(int *a, int *b, int *c)
+void input(int *a, int *b, int *c)
 {
     printf("enter the first number: ");
     scanf("%d", a);
@@ -25,7 +25,7 @@ void compare(int a, int b, int c, int *largest)
     {
         *largest = a;
     }
-    else if(b >= a && b >= c)
+    else if(b >= c)
     {
         *largest = b;
     }
