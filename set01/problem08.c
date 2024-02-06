@@ -7,8 +7,8 @@ void output(int n, int a[n],int sum);
 int main()
 {
     int sum, n;
-    int a[n];
     n = input_array_size();
+    int a[n];
     input_array(n, a);
     sum = sum_n_array(n, a);
     output(n, a, sum);
@@ -26,7 +26,7 @@ void input_array(int n, int a[n])
     for(int i = 0; i < n; i++)
     {
         printf("enter the array: ");
-        scanf("%d", a[i]);
+        scanf("%d", &a[i]);
     }
 }
 int sum_n_array(int n, int a[n])
