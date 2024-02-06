@@ -12,8 +12,7 @@ int main()
     int result;
     char string1[100], string2[100];
     input_two_strings(string1, string2);
-    result=stringcompare(string1, string2);
-    printf("result is %d\n", result);
+    result = stringcompare(string1, string2);
     output(string1, string2, result);
     return 0;
 }
@@ -39,7 +38,6 @@ int stringcompare(char *string1, char *string2)
   {
     return 2;
   }
-
 }
 
 void output(char *string1, char *string2, int result)
