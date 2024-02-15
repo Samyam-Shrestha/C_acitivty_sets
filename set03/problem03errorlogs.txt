@@ -1,0 +1,4 @@
+problem03.c: In function 'is_prime':
+problem03.c:47:1: error: expected declaration or statement at end of input
+ }
+ ^
