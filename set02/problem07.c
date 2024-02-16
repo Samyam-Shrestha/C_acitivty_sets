@@ -1,8 +1,9 @@
 // Write a program to find the area of a triangle.
 #include <stdio.h>
-typedef struct _triangle {
+typedef struct _triangle 
+{
 	float base, altitude, area;
-} ;
+};
 typedef struct _triangle Triangle;
 
 Triangle input_triangle();
@@ -10,21 +11,20 @@ void find_area(Triangle *t);
 void output(Triangle t);
 int main()
 {
-    Triangle sum, Base, Altitude;
-    Base = input_triangle();
-    Altitude = input_triangle();
-    find_area(&sum);
-    output(sum);
+    Triangle T1;
+    T1 = input_triangle();
+    find_area(&T1);
+    output(T1);
 
 }
 Triangle input_triangle()
 {
-    Triangle i;
+    Triangle T1;
     printf("Enter the base of the triangle: ");
-    scanf("%f", &i.base);
+    scanf("%f", &T1.base);
     printf("Enter the Height of the triangle: ");
-    scanf("%f", &i.altitude);
-    return i;
+    scanf("%f", &T1.altitude);
+    return T1;
 }
 void find_area(Triangle *t)
 {
