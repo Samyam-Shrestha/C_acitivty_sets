@@ -1,5 +1,6 @@
 // Write a program to reverse a string.
 #include <stdio.h>
+#include <string.h>
 void input_string(char *a);
 void str_reverse(char *str, char *rev_str);
 void output(char *a, char *reverse_a);
@@ -17,19 +18,16 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str)
 {
-    int length = 0;
-    int i;
-    while(str[length] != 0)
+    int len1 = strlen(str);
+    for(int i=0;i<len1;i++)
     {
-        length++;
+        rev_str[i] = str[len1-1-i];
     }
-    for(i = 0; i < length; i++)
-    {
-        rev_str = str[length - i - 1];
-    }
-
+    rev_str[len1] = '\0';
 }
+
 void output(char *a, char *reverse_a)
 {
-    printf("the orginal is %s and the reverse string is: %s", a ,reverse_a);
+    printf("The string before reversing = %s\n",a);
+    printf("The string after reversing is = %s\n",reverse_a);
 }

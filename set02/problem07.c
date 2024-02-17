@@ -14,8 +14,6 @@ int main()
     T1 = input_triangle();
     find_area(&T1);
     output(T1);
-
-
 }
 Triangle input_triangle()
 {
