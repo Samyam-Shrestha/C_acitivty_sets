@@ -6,10 +6,10 @@ float find_distance(float x1, float y1, float x2, float y2);
 void output(float x1, float y1, float x2, float y2, float distance);
 int main()
 {
-    float a1, b1, a2, b2, result;
-    input( &a1, &b1, &a2, &b2 );
-    result = find_distance(a1, b1, a2, b2);
-    output(a1, b1, a2, b2, result);
+    float x1, y1, x2, y2, result;
+    input( &x1, &y1, &x2, &y2 );
+    result = find_distance(x1, y1, x2, y2);
+    output(x1, y1, x2, y2, result);
 }   
 void input(float *x1, float *y1, float *x2, float *y2)
 {
