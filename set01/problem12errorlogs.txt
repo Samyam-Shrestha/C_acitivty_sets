@@ -1,0 +1,6 @@
+problem12.c: In function 'main':
+problem12.c:19:9: error: redeclaration of 'n' with no linkage
+     int n = get_n();
+         ^
+problem12.c:17:9: note: previous declaration of 'n' was here
+     int n
