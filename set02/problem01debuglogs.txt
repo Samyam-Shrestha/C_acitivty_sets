@@ -1,0 +1,19 @@
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\sem 2\C programs (2nd sem)\C_acitivty_sets\set02\a.exe...done.
+(gdb) r
+Starting program: C:\sem 2\C programs (2nd sem)\C_acitivty_sets\set02/a.exe
+[New Thread 3880.0x352c]
+[New Thread 3880.0xe30]
+enter the base of the triangle: 7
+enter the height of the triangle: 8
+the area of the triangle is 28.000000
+[Inferior 1 (process 3880) exited normally]
+(gdb)

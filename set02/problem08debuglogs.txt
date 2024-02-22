@@ -1,0 +1,52 @@
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\sem 2\C programs (2nd sem)\C_acitivty_sets\set02\a.exe...done.
+(gdb) r
+Starting program: C:\sem 2\C programs (2nd sem)\C_acitivty_sets\set02/a.exe
+[New Thread 13596.0x1cf0]
+[New Thread 13596.0x32f4]
+Enter the number of triangles: 
+6
+Triangle 1:
+Enter the base of the triangle:
+8
+Enter the altitude of the triangle:
+9
+Triangle 2:
+Enter the base of the triangle:
+8
+Enter the altitude of the triangle:
+7 
+Triangle 3:
+Enter the base of the triangle:
+8
+Enter the altitude of the triangle:
+8
+Triangle 4:
+Enter the base of the triangle:
+8
+Enter the altitude of the triangle:
+9
+Triangle 5:
+Enter the base of the triangle:
+8
+Enter the altitude of the triangle:
+9
+Triangle 6:
+Enter the base of the triangle:
+9
+Enter the altitude of the triangle:
+9
+Triangle with the smallest area is:
+Base: 8.00
+Altitude: 7.00
+Area: 28.00
+[Inferior 1 (process 13596) exited normally]
+(gdb)
