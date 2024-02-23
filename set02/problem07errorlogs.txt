@@ -1,0 +1,4 @@
+problem07.c: In function 'main':
+problem07.c:33:1: error: expected declaration or statement at end of input
+ }
+ ^

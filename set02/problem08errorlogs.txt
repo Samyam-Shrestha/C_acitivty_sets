@@ -1,0 +1,19 @@
+problem08.c: In function 'find_n_areas':
+problem08.c:62:9: error: 'fi' undeclared (first use in this function)
+         fi
+         ^~
+problem08.c:62:9: note: each undeclared identifier is reported only once for each function it appears in
+problem08.c:63:1: error: expected ';' before '}' token
+ }
+ ^
+problem08.c: In function 'find_smallest_triangle':
+problem08.c:70:8: error: 'clear' undeclared (first use in this function)
+        clear
+        ^~~~~
+problem08.c:71:5: error: expected ';' before '}' token
+     }
+     ^
+problem08.c: In function 'find_n_areas':
+problem08.c:81:1: error: expected declaration or statement at end of input
+ }
+ ^
