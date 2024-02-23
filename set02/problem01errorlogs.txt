@@ -1,0 +1,6 @@
+problem01.c: In function 'main':
+problem01.c:11:21: error: incompatible type for argument 3 of 'find_area'
+     find_area(a, b, result);
+                     ^~~~~~
+problem01.c:4:6: note: expected 'float *' but argument is of type 'float'
+ void find_area(float base , float height, float *area);

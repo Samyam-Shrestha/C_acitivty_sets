@@ -1,0 +1,7 @@
+problem02.c: In function 'main':
+problem02.c:12:14: error: too few arguments to function 'check_scalene'
+     result = check_scalene();
+              ^~~~~~~~~~~~~
+problem02.c:4:5: note: declared here
+ int check_scalene(int a, int b, int c);
+     ^~~~~~~~~~~~~
