@@ -1,0 +1,4 @@
+problem03.c: In function 'is_composite':
+problem03.c:30:15: warning: division by zero [-Wdiv-by-zero]
+         if (n %  0)
+               ^
