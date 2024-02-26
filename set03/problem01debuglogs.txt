@@ -1,0 +1,24 @@
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\sem 2\C programs (2nd sem)\C_acitivty_sets\set03\a.exe...done.
+(gdb) r
+Starting program: C:\sem 2\C programs (2nd sem)\C_acitivty_sets\set03/a.exe
+[New Thread 20160.0x59d4]
+[New Thread 20160.0x2ca8]
+enter x1: 
+3
+enter y1:
+6
+enter x2:
+8
+enter y2:
+2
+The distance between point (3.000000,8.000000) and (6.000000,2.000000) is 6.403124[Inferior 1 (process 20160) exited normally]
+(gdb) 

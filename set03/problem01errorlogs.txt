@@ -1,0 +1,7 @@
+problem01.c: In function 'find_distance':
+problem01.c:31:5: error: expected expression before 'return'
+     return distance;
+     ^~~~~~
+problem01.c:32:1: error: expected ';' before '}' token
+ }
+ ^
