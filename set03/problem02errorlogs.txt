@@ -1,0 +1,6 @@
+problem02.c: In function 'is_triangle':
+problem02.c:34:5: error: expected expression before '{' token
+     {
+     ^
+problem02.c:42:1: error: expected expression before '}' token
+ }
