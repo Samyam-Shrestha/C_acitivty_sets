@@ -1,0 +1,9 @@
+problem07.c: In function 'sum_n_nos':
+problem07.c:25:5: error: expected expression before 'return'
+     return sum;
+     ^~~~~~
+problem07.c:26:1: error: expected expression before '}' token
+ }
+ ^
+problem07.c:26:1: error: expected expression before '}' token
+problem07.c:26:1: error: expected expression before '}' token
