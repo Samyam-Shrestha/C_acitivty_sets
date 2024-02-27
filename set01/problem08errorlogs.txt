@@ -1,0 +1,9 @@
+problem08.c: In function 'input_array':
+problem08.c:27:5: error: expected ';' before '{' token
+     {
+     ^
+problem08.c:31:1: error: expected expression before '}' token
+ }
+ ^
+problem08.c:31:1: error: expected expression before '}' token
+PS C:\sem 2\C programs (2nd sem)\C_acitivty_sets\set01> 
