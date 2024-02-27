@@ -1,0 +1,20 @@
+problem06.c: In function 'compare':
+problem06.c:38:1: error: expected declaration or statement at end of input
+ }
+ ^
+
+
+ problem06.c: In function 'compare':
+problem06.c:25:9: error: invalid operands to binary * (have 'int' and 'int *')
+         *largest = a;
+         ^
+problem06.c:25:21: error: expected ')' before ';' token
+         *largest = a;
+                     ^
+problem06.c:26:5: error: expected expression before '}' token
+     }
+     ^
+problem06.c: At top level:
+problem06.c:27:5: error: expected identifier or '(' before 'else'
+     else if(b >= c)
+     ^~~~
