@@ -35,5 +35,16 @@ int is_prime(int n)
 }
 void output(int n, int result)
 {
-
+    if(result==2)
+    {
+        printf("The number %d is a prime number \n",n);
+    }
+    else if(result>2)
+    {
+        printf("The number %d is a composite number \n",n);
+    }
+    else
+    {
+        printf("The number is neither composite nor prime number \n");
+    }
 }
