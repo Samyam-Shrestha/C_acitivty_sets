@@ -1,0 +1,10 @@
+problem03.c:33:5: error: expected identifier or '(' before 'return'
+     return result;
+     ^~~~~~
+problem03.c:34:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+
+problem03.c: In function 'output':
+problem03.c:39:16: error: expected expression before ')' token
+     if(result==)
