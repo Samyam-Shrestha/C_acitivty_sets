@@ -12,7 +12,8 @@ int main()
     return 0;
 }
 int input()
-{
+{ 
+    
     int n;
     printf("Enter the nth number you want in fibonacci series : \n");
     scanf("%d",&n);
