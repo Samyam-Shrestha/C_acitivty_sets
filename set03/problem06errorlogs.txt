@@ -1,0 +1,9 @@
+problem06.c: In function 'sub_str_index':
+problem06.c:40:9: error: expected expression before '}' token
+         }
+         ^
+
+problem06.c: In function 'sub_str_index':
+problem06.c:40:9: error: expected expression before '}' token
+         }
+         ^
