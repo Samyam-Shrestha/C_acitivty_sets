@@ -1,0 +1,14 @@
+problem05.c: In function 'int_array':
+problem05.c:31:16: error: expected expression before ';' token
+         a[i]=i+;
+                ^
+            
+problem05.c: In function 'int_array':
+problem05.c:29:20: error: expected ';' before ':' token
+     for(int i=0;i<n:i++)
+                    ^
+
+problem05.c: In function 'erotosthenes_sieve':
+problem05.c:43:23: error: expected expression before ']' token
+                 a[j - ] = 0;
+                       ^
